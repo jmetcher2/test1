@@ -37,9 +37,10 @@ Linux
 ```
 
 Windows  
-```gradlew install (see above)  
-  cd build\install\test1\bin  
-  test1 <date1> <date2>
+```
+gradlew install (see above)  
+cd build\install\test1\bin  
+test1 <date1> <date2>
 ```
 
 The day difference will be printed to STDOUT.
