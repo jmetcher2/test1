@@ -1,7 +1,7 @@
 Prerequisites
 =============
 
-Java 1.7 or higher
+Java 1.7 or higher.  
 Note that you must have the full JDK, not just a JRE.  If you have more than one JDK/JRE,
 you may need to set the JAVA_HOME environment variable to ensure you run the right one.  See e.g. https://docs.oracle.com/javase/8/docs/technotes/guides/install/install_overview.html.
 
