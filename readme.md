@@ -1,8 +1,11 @@
 Prerequisites
 =============
 
-Java 1.8 or higher 
-May run on Java 1.5 or higher but not tested below 1.8
+Java 1.7 or higher
+Note that you must have the full JDK, not just a JRE.  If you have more than one JDK/JRE,
+you may need to set the JAVA_HOME environment variable to ensure you run the right one.  See e.g. https://docs.oracle.com/javase/8/docs/technotes/guides/install/install_overview.html.
+
+May run on Java 1.5 or higher but not tested below 1.7
 
 Gradle wrapper
 ==============
