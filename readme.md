@@ -13,22 +13,18 @@ NOTE: the first time you run the gradle wrapper, it will take a while to downloa
 Run the gradle wrapper as follows:
 
 Linux:  
-`./gradlew _command_`
+`./gradlew <command>`
 
 Windows  
-`gradlew _command_`
+`gradlew <command>`
 
  
 Commands are:
 
-eclipse  
-  generates eclipse project and classpath files
-build  
-  builds the project
-test  
-  runs tests and puts a test report in ./build/reports/tests/test/index.html
-install  
-  packages and installs the application to ./build/install/test1
+*eclipse* - generates eclipse project and classpath files  
+*build* - builds the project  
+*test* - runs tests and puts a test report in ./build/reports/tests/test/index.html  
+*install* - packages and installs the application to ./build/install/test1
   
 How to run
 ==========
