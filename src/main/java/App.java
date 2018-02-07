@@ -3,7 +3,6 @@
  */
 public class App {
     public static void main(String[] args) {
-    	System.out.println(args.length);
    		MyDate fromDate = MyDate.of(args[0]);
    		MyDate toDate = MyDate.of(args[1]);
    		// subtract one here because our epochDays calculation includes the end day
