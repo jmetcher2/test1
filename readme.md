@@ -12,36 +12,39 @@ NOTE: the first time you run the gradle wrapper, it will take a while to downloa
 
 Run the gradle wrapper as follows:
 
-Linux:
-./gradlew <command>
+Linux:  
+`./gradlew _command_`
 
-Windows
-gradlew <command>
+Windows  
+`gradlew _command_`
 
  
 Commands are:
 
-eclipse
+eclipse  
   generates eclipse project and classpath files
-build
+build  
   builds the project
-test
+test  
   runs tests and puts a test report in ./build/reports/tests/test/index.html
-install
+install  
   packages and installs the application to ./build/install/test1
   
 How to run
 ==========
 
-Linux
-  ./gradlew install (see above)
-  cd ./build/install/test1/bin 
+Linux  
+```
+  ./gradlew install (see above)  
+  cd ./build/install/test1/bin   
   ./test1 <date1> <date2>
+```
 
-Windows
-  gradlew install (see above)
-  cd build\install\test1\bin 
+Windows  
+```gradlew install (see above)  
+  cd build\install\test1\bin  
   test1 <date1> <date2>
+```
 
 The day difference will be printed to STDOUT.
 
